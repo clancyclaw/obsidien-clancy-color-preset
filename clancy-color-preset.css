@@ -1,0 +1,47 @@
+
+/* 1. 基礎文字顏色類別 - 針對深色主題優化 */
+.c-pink { color: #FFB8EB !important; }
+.c-red { color: #FF5582 !important; font-weight: bold; }
+.c-orange { color: #FFB86C !important; }
+.c-yellow { color: #FFF3A3 !important; }
+.c-green { color: #BBFABB !important; }
+.c-cyan { color: #ABF7F7 !important; }
+.c-blue { color: #ADCCFF !important; }
+.c-purple { color: #D2B3FF !important; }
+.c-grey { color: #CACFD9 !important; }
+
+/* 2. 語法結構標註 */
+.grammar-verb { 
+    border-bottom: 2px solid #ADCCFF; 
+    color: #ADCCFF !important;
+}
+
+.grammar-noun { 
+    background-color: rgba(255, 184, 108, 0.2);
+    padding: 0 4px;
+    border-radius: 4px;
+    color: #FFB86C !important;
+}
+
+/* 3. 新單字標註 - 已調亮紫色 */
+.word-new {
+    border: 1px solid #D2B3FF;
+    border-radius: 12px;
+    padding: 0 8px;
+    font-size: 0.9em;
+    color: #D2B3FF !important;
+    background-color: rgba(210, 179, 255, 0.1);
+}
+
+/* 4. 背景網格 */
+.markdown-source-view.mod-cm6 .cm-scroller, 
+.markdown-rendered {
+    background-image: radial-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 0px) !important;
+    background-size: 25px 25px !important;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-shadow: 0 0 0.5px rgba(255,255,255,0.05); /* 增加極微小的邊緣對比 */
+}
